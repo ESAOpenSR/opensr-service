@@ -1,4 +1,4 @@
-#  Copyright (c) 2025 by the Eozilla team and contributors
+#  Copyright (c) 2025 by the OpenSR team
 #  Permissions are hereby granted under the terms of the Apache 2.0 License:
 #  https://opensource.org/license/apache-2-0.
 
@@ -36,6 +36,10 @@ def generate_sr_product(
     """
     Generate a 2.5m Super-Resolution Product from Sentinel-2 L2A data.
     """
+
+    # TODO: call actual SR-implementation here
+
+    # Return a dummy result so the process inputs are use in some way
     if output_format == "GeoTIFF/COG":
         ext = "tif"
     else:
